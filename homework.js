@@ -137,8 +137,9 @@ function multigreeting(name, language) {
 // divisor using the instructions above.
 
 function gcd(a, b) {
-  if (a === b) {
+  if (b === 0) {
     return a;
-  } else if (a % 2 === 0 && b % 2 === 0) {return 2
+  } else {
+    return gcd(b, a % b);
   }
 }
