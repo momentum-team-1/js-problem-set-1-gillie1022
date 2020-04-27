@@ -48,8 +48,7 @@ function isEven(n) {
 // temperature in Celsius.
 
 function fahrenheitToCelsius(temperature) {
-  let celsius = ((temperature - 32) * 5) / 9;
-  return celsius;
+  return ((temperature - 32) * 5) / 9;
 }
 
 // 6. Create a function called celsiusToFahrenheit that takes a
@@ -57,8 +56,7 @@ function fahrenheitToCelsius(temperature) {
 // temperature in Fahrenheit.
 
 function celsiusToFahrenheit(temperature) {
-  let fahrenheit = (temperature * 9) / 5 + 32;
-  return fahrenheit;
+  return (temperature * 9) / 5 + 32;
 }
 
 // 7. Create a function called fahrenheitToKelvin that takes a
